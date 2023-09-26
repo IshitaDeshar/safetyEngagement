@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+.bodyactivate{
+    background-color: #EBF4EF;
+
+    
+}
+.bodyactivate .logoactivate{
+    width: 14rem;
+    margin: 1rem 7rem;
+   
+}
+.activateTitle span{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.4rem;
+    color: #114729;
+}
+.cardActivation{
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    margin-top: -20rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,0.16);
+
+
+
+}
+ .activateImg img{
+    width: 14rem;
+}
+.division  .main-heading{
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: center!important;
+    color: black!important;
+}
+.division .main-subheading{
+    
+      margin: 3.5rem  auto!important;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-align: center!important;
+    color: rgb(132, 129, 129);
+}
+.activatebtn .btn{
+    width: 30rem;
+      height: 5rem;
+      border-radius: 0.5rem!important;
+      background-color: #114729!important;
+      text-transform: capitalize;
+      font-size: 1.4rem!important;
+      letter-spacing: 0.3rem;
+      color:white!important;
+      font-weight: 600;
+      border:none!important;
+      text-align: center!important;
+}
+.activatebtn .btn:hover{
+    color:black!important;
+    background-color: #49A472!important;
+    box-shadow: 0 0.2rem 0.5rem #206e42 ;
+    transition: all 0.3s ease!important;
+    border: none!important;
+}

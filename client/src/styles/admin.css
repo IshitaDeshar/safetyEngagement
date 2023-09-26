@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+  
+  
+}
+.body{
+    background-image: linear-gradient(180deg, #0e3c23, #3f825d);
+    
+    
+    
+}
+.body .logobg{
+    width: 13rem;
+    margin: 2rem 7rem;
+}
+.main_div{
+    height: 100vh;
+    width: 100%!important;
+}
+/* .card{
+    border: none;
+    color: black;
+    border-radius: 1rem;
+    margin: 3rem;
+    margin-top: -20rem;
+
+
+} */
+ .logintitle span{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.4rem;
+    color: #114729;
+}
+.division{
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 auto 0rem;
+}
+.division span{
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-align: center!important;
+    color: rgb(132, 129, 129);
+}
+.myform{
+    padding: 3rem 4.5rem 0 4.5rem;
+}
+.form-control{
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    /* letter-spacing: 1rem; */
+    height: 4.7rem!important;
+    padding:  3.5rem 0rem 1.5rem 4rem!important;
+    font-size: 1.5rem;
+
+    
+    
+}
+.form-control:focus{
+    border-radius: 5px;
+    background: #F5F5F5;
+    
+    margin-bottom: 2rem;
+    box-shadow: none;
+    border: none;
+    box-shadow: 0 0.1rem 0.2rem #114729 ;
+
+    /* height: 4.7rem!important; */
+    
+}
+label{
+    font-size: 1.4rem;
+    padding: 1.5rem 2.5rem 2rem 4.5rem!important;
+    letter-spacing: 0.1rem;
+    color: #6A6262;
+    
+}
+.form-floating{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: calc(40%);
+    left: 1.3rem;
+    font-size: 1.7rem;
+    color: #114729;
+}
+.loginbtn .btn{
+    width: 15rem;
+      height: 5rem;
+      border-radius: 3rem!important;
+      background-color: #114729!important;
+      text-transform: capitalize;
+      font-size: 1.6rem!important;
+      letter-spacing: 0.3rem;
+      color:#C0E1CF!important;
+      font-weight: 500;
+      border:none!important;
+      /* margin: 3.5rem 0rem 2rem -2rem; */
+      text-align: center!important;
+      /* margin: 4rem 0rem 4rem 2rem!important; */
+}
+/* .loginbtn .btn:hover{
+    color:black!important;
+    background-color: #49A472!important;
+    box-shadow: 0 0.2rem 0.5rem #206e42 ;
+    transition: all 0.3s ease!important;
+    border: none!important;
+} */
+.bn{
+    font-size: 1.3rem;
+    color: rgb(132, 129, 129);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    /* text-align: center!important; */
+   
+    
+
+}
+.pwlink{
+    color: rgb(132, 129, 129);
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #49A472!important;
+    float: left;
+
+
+    
+}
+.pwlink:hover{
+    color: #114729!important;
+
+}
+@media(max-width:768){
+    .row{
+        --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+
+    }
+}

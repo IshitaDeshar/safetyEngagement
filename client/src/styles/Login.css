@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+  
+  
+  
+}
+.bodylog{
+    background-image: linear-gradient(180deg, #0e3c23, #3f825d)!important;
+    height: 100vh!important;
+}
+/* .bodylog .logobg{
+    width: 13rem;
+    margin: 2rem 7rem;
+} */
+.bodylog .logobg{
+    width: 11rem;
+    margin: 2rem 7rem;
+}
+.register .row{
+    background-color: white ;
+    border-radius: 1.5rem;
+    /* box-shadow: 1rem 1rem 1rem; */
+    /* width: 70%; */
+    align-items: center!important;
+    margin: 0rem 10rem;
+}
+/* .register .row .leftside{
+    background-color:#adcdbb;
+} */
+.register img{
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    width: 35rem!important;
+    margin: 4rem 5rem!important;
+    
+}
+.register h1{
+    margin: 3rem 6rem;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+}
+.register span{
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-align: center!important;
+    color: rgb(132, 129, 129);
+    margin: 4rem 6rem!important;
+
+
+}
+.toast-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+/* .main_div{
+    height: 100vh;
+    width: 100%!important;
+}
+.card{
+    border: none;
+    color: black;
+    border-radius: 3rem;
+    margin: 3rem;
+    margin-top: -20rem;
+
+
+}
+ .logintitle span{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.4rem;
+    color: #114729;
+}
+.division{
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0 auto 0rem;
+}
+.division span{
+    font-weight: 600;
+    font-size: 1.5rem;
+   
+    letter-spacing: 0.1rem;
+
+    text-align: center!important;
+    color: #49A472;
+} */
+.myform{
+    padding: 3rem 4.5rem 0px 6.5rem;
+}
+.form-control{
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    /* background: #C0E1CF ; */
+    /* letter-spacing: 1rem; */
+    height: 4.7rem!important;
+    padding:  3.5rem 0rem 1.5rem 4rem!important;
+    font-size: 1.5rem;
+
+    
+    
+}
+.form-control:focus{
+    border-radius: 5px;
+    /* background: #C0E1CF ; */
+    background-color: white;
+    margin-bottom: 2rem;
+    border: 0.3px solid rgb(191, 190, 190);
+    box-shadow: none;
+    border-left: 3.5px solid #49A472;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    
+    
+    
+}
+label{
+    font-size: 1.4rem;
+    padding: 1.5rem 2.5rem 2rem 4.5rem!important;
+    letter-spacing: 0.1rem;
+    color: #6A6262;
+    
+}
+.form-floating{
+    position: relativse;
+}
+.icon{
+    position: absolute;
+    top: calc(40%);
+    left: 1.3rem;
+    font-size: 1.7rem;
+    color: #114729;
+}
+.loginbtn .btn{
+    width: 20rem;
+      height: 5rem;
+      border-radius: 3rem!important;
+      background-color: #114729!important;
+      text-transform: capitalize;
+      font-size: 1.6rem!important;
+      letter-spacing: 0.3rem;
+      color:#C0E1CF!important;
+      font-weight: 500;
+      border:none!important;
+      margin: 3.5rem 0;
+}
+.loginbtn .btn:hover{
+    color:black!important;
+    background-color: #49A472!important;
+    box-shadow: 0 0.2rem 0.5rem #206e42 ;
+    transition: all 0.3s ease!important;
+    border: none!important;
+}
+.bn{
+    font-size: 1.3rem;
+    color: #49A472;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+.pwlink{
+    color: #114729;
+    letter-spacing: 0.1rem;
+    
+
+}
+.pwlink:hover{
+    color: #49A472;
+}
+@media(max-width:768){
+    .row{
+        --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+
+    }
+}
